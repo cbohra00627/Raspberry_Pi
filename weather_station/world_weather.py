@@ -48,12 +48,18 @@ def des_weather(weather):
     icon_path = "icons/clear.jpg"
   elif weather == "pcloudy":
     icon_path = "icons/pcloudy.jpg"
-  elif weather == "cloudy":
+  elif weather == "cloudy" or weather == "mcloudy":
     icon_path = "icons/cloudy.jpg"
-  elif weather == "rain":
+  elif weather == "humid":
+    icon_path = "icons/humid.jpg"
+  elif weather == "rain" or weather == "lightrain":
     icon_path = "icons/rain.jpg"
-  elif weather == "snow":
+  elif weather == "oshower" or weather == "ishower":
+    icon_path = "icons/shower.jpg"
+  elif weather == "snow" or weather == "lightsnow":
     icon_path = "icons/snow.jpg"
+  elif weather == "rainsnow":
+    icon_path = "icons/rainsnow.jpg"
   elif weather == "ts":
     icon_path = "icons/ts.jpg"
   elif weather == "tsrain":
@@ -126,7 +132,7 @@ def draw_day(day):
 
   #Data font settings
   data_font = ImageFont.truetype("fonts/OpenSans-Semibold.ttf", 9)
-  data_font_color = (0,0,0)
+  data_font_color = (0,255,0)
 
   #Draw date
   date = str(day["date"])[6:8] + "/" + str(day["date"])[4:6] + "/" + str(day["date"])[0:4]
