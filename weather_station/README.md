@@ -25,10 +25,10 @@ Run the "lcd.py" file from Pimoroni/enviroplus/examples to check if the board is
 To run this project just download this folder to your Raspberry Pi.  
 Stack the Enviro Board on the Raspberry Pi as shown above.  
 Then run the "main.py" file using the following command:  
-```python3 -B main.py```
-It is necessary to use Python version 3 for this project otherwise it will show an error.  
+```python3 -B main.py```  
+It is necessary to use Python version 3 for this project otherwise it will not work.  
   
-After running the above given command, thr screen will turn on and it will show the following on the screen:  
+After running the above given command, the screen will turn on and it will show the following on the screen:  
   
 ![Main Screen](https://github.com/cbohra00627/Images/blob/main/weather_station/mainscreen.jpg)  
   
