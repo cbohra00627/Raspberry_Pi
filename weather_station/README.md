@@ -5,5 +5,5 @@ It is a Raspberry Pi based weather station. It shows the basic parameters of env
 3. MEMS I2S digital microphone
 4. 0.96'' color LCD (160x80)  
   
-![Enviro Front View](https://github.com/cbohra00627/Images/blob/main/weather_station/phatfront.jpg)    
-    ![Enviro Back View](https://github.com/cbohra00627/Images/blob/main/weather_station/phatback.jpg)  
+![Enviro Front View](https://github.com/cbohra00627/Images/blob/main/weather_station/phatfront.jpg)   
+   ![Enviro Back View](https://github.com/cbohra00627/Images/blob/main/weather_station/phatback.jpg)  
