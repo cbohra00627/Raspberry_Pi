@@ -34,9 +34,18 @@ After running the above given command, the screen will turn on and it will show 
   
 There are two options on this screen:  
 1. Weather Station - It shows the readings from the on-board sensors.
-2. World Weather - It uses APIs to fetch weather data of any place if it is provided the ISO country code and the zip code of that place. After giving the information, it will show the weather data (max and min temperatures and max wind speed) of that place.
+2. World Weather - It uses APIs to fetch 3 day weather forecast of any place if it is provided the ISO country code and the zip code of that place. After giving the information, it will show the weather data (max and min temperatures and max wind speed) of that place.
   
+It uses the APIs offered by [Zippopotamus](http://www.zippopotam.us/) to get the longitude and the latitude of the place using the country code and the zip code. To see the supported countries, visit the site.  
 Enter the desired option number on the terminal and hit enter.  
+  
+1. Weather Station  
+  
+![Weather Station Screen](https://github.com/cbohra00627/Images/blob/main/weather_station/screen1.jpg)  
+  
+2. World Weather  
+  
+![World Weather Screen](https://github.com/cbohra00627/Images/blob/main/weather_station/screen2.jpg)  
   
 Here is a video of the hardware working (Click the link to go to youtube):  
   
